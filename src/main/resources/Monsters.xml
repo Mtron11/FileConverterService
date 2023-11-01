@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<universe>
+  <monsters>
+    <monster>
+      <name>Грифон</name>
+      <habitat>Горы и леса</habitat>
+      <characteristics>
+        <strength>Сильный</strength>
+        <agility>Высокая</agility>
+        <resistance>Средняя</resistance>
+        <weaknesses>
+          <weakness1>Огонь</weakness1>
+          <weakness2>Яд</weakness2>
+        </weaknesses>
+      </characteristics>
+    </monster>
+    <monster>
+      <name>Фледдер</name>
+      <habitat>Темные леса и подземелья</habitat>
+      <characteristics>
+        <strength>Опасный</strength>
+        <agility>Высокая</agility>
+        <resistance>Высокая</resistance>
+        <weaknesses>
+          <weakness1>Солнечный свет</weakness1>
+          <weakness2>Серебро</weakness2>
+          <weakness3>Черная кровь</weakness3>
+        </weaknesses>
+      </characteristics>
+    </monster>
+    <monster>
+      <name>Василиск</name>
+      <habitat>Пещеры и горные ущелья</habitat>
+      <characteristics>
+        <strength>Очень сильный</strength>
+        <agility>Средняя</agility>
+        <resistance>Высокая</resistance>
+        <weaknesses>
+          <weakness1>Ослабляющие зелья</weakness1>
+          <weakness2>Яркий свет</weakness2>
+        </weaknesses>
+      </characteristics>
+    </monster>
+    <monster>
+      <name>Гаргулья</name>
+      <habitat>Руины и церковные дворы</habitat>
+      <characteristics>
+        <strength>Средняя</strength>
+        <agility>Высокая</agility>
+        <resistance>Очень высокая</resistance>
+        <weaknesses>
+          <weakness1>Серебро</weakness1>
+          <weakness2>Огонь</weakness2>
+        </weaknesses>
+      </characteristics>
+    </monster>
+  </monsters>
+</universe>
