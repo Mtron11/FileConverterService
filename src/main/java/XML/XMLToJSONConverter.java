@@ -3,6 +3,9 @@ import Read.ReadXML;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class XMLToJSONConverter {
     private ReadXML xmlParser;
 
@@ -10,9 +13,25 @@ public class XMLToJSONConverter {
         this.xmlParser = xmlParser;
     }
 
-    public String convertToJSON() throws Exception {
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-        return objectMapper.writeValueAsString(xmlParser.getMonsters());
+    public List<TypeData> convertToJSONFile() {
+        List<Monster> monsters = xmlParser.getMonsters();
+        List<TypeData> typeDataList = new ArrayList<>();
+        List<String> addedTypes = new ArrayList<>();
+
+        for (Monster monster : monsters) {
+            String type = monster.getType();
+            if (!addedTypes.contains(type)) {
+                TypeData typeData = new TypeData(type);
+                for (Monster m : monsters) {
+                    if (m.getType().equals(type)) {
+                        typeData.addMonster(m);
+                    }
+                }
+                typeDataList.add(typeData);
+                addedTypes.add(type);
+            }
+        }
+
+        return typeDataList;
     }
 }
