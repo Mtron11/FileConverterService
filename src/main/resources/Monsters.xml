@@ -4,6 +4,7 @@
     <monster>
       <name>Грифон</name>
       <habitat>Горы и леса</habitat>
+      <type>Реликт</type>
       <characteristics>
         <strength>Опасный</strength>
         <agility>Высокая</agility>
@@ -17,6 +18,7 @@
     <monster>
       <name>Фледдер</name>
       <habitat>Темные леса и подземелья</habitat>
+      <type>Вампир</type>
       <characteristics>
         <strength>Смертельно опасный</strength>
         <agility>Высокая</agility>
@@ -31,6 +33,7 @@
     <monster>
       <name>Василиск</name>
       <habitat>Пещеры и горные ущелья</habitat>
+      <type>Драконид</type>
       <characteristics>
         <strength>Смертельно опасный</strength>
         <agility>Средняя</agility>
@@ -44,6 +47,7 @@
     <monster>
       <name>Гаргулья</name>
       <habitat>Руины и церковные дворы</habitat>
+      <type>Магическая тварь</type>
       <characteristics>
         <strength>Средняя</strength>
         <agility>Высокая</agility>
@@ -57,6 +61,7 @@
     <monster>
       <name>Элементаль Земли</name>
       <habitat>Руины и подземелья</habitat>
+      <type>Магическая тварь</type>
       <characteristics>
         <strength>Опасный</strength>
         <agility>Низкая</agility>

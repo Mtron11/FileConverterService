@@ -1,6 +1,9 @@
 import Read.ReadXML;
 import Write.WriteJson;
+import XML.TypeData;
 import XML.XMLToJSONConverter;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -9,8 +12,9 @@ public class Main {
 
         ReadXML xmlParser = new ReadXML(xmlFilePath);
         XMLToJSONConverter converter = new XMLToJSONConverter(xmlParser);
-        converter.convertToJSONFile(jsonFilePath);
+        List<TypeData> typeDataList = converter.convertToJSONFile();
         WriteJson jsonFileWriter = new WriteJson();
-        jsonFileWriter.writeJSONToFile(xmlParser.getMonsters(), jsonFilePath);
+
+        jsonFileWriter.writeJSONToFile(typeDataList, jsonFilePath);
     }
 }

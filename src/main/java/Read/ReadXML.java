@@ -23,6 +23,7 @@ public class ReadXML {
         for (Element monsterElement : monstersElement.elements("monster")) {
             String name = monsterElement.elementText("name");
             String habitat = monsterElement.elementText("habitat");
+            String type = monsterElement.elementText("type");
 
             Element characteristicsElement = monsterElement.element("characteristics");
             String strength = characteristicsElement.elementText("strength");
@@ -36,7 +37,7 @@ public class ReadXML {
             }
 
             Characteristics characteristics = new Characteristics(strength, agility, resistance, weaknesses);
-            Monster monster = new Monster(name, habitat, characteristics);
+            Monster monster = new Monster(name, habitat, type, characteristics);
             monsters.add(monster);
         }
 
