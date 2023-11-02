@@ -8,9 +8,6 @@ public class Characteristics {
     private String resistance;
     private List<String> weaknesses;
 
-    public Characteristics() {
-    }
-
     public Characteristics(String strength, String agility, String resistance, List<String> weaknesses) {
         this.strength = strength;
         this.agility = agility;

@@ -5,7 +5,7 @@
       <name>Грифон</name>
       <habitat>Горы и леса</habitat>
       <characteristics>
-        <strength>Сильный</strength>
+        <strength>Опасный</strength>
         <agility>Высокая</agility>
         <resistance>Средняя</resistance>
         <weaknesses>
@@ -18,7 +18,7 @@
       <name>Фледдер</name>
       <habitat>Темные леса и подземелья</habitat>
       <characteristics>
-        <strength>Опасный</strength>
+        <strength>Смертельно опасный</strength>
         <agility>Высокая</agility>
         <resistance>Высокая</resistance>
         <weaknesses>
@@ -32,7 +32,7 @@
       <name>Василиск</name>
       <habitat>Пещеры и горные ущелья</habitat>
       <characteristics>
-        <strength>Очень сильный</strength>
+        <strength>Смертельно опасный</strength>
         <agility>Средняя</agility>
         <resistance>Высокая</resistance>
         <weaknesses>
@@ -51,6 +51,20 @@
         <weaknesses>
           <weakness1>Серебро</weakness1>
           <weakness2>Огонь</weakness2>
+        </weaknesses>
+      </characteristics>
+    </monster>
+    <monster>
+      <name>Элементаль Земли</name>
+      <habitat>Руины и подземелья</habitat>
+      <characteristics>
+        <strength>Опасный</strength>
+        <agility>Низкая</agility>
+        <resistance>Очень высокая</resistance>
+        <weaknesses>
+          <weakness1>Масло против магич. тварей</weakness1>
+          <weakness2>Серебро</weakness2>
+          <weakness3>Квен</weakness3>
         </weaknesses>
       </characteristics>
     </monster>

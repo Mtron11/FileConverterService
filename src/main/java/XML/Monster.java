@@ -1,13 +1,9 @@
 package XML;
-import java.util.List;
 
 public class Monster {
     private String name;
     private String habitat;
     private Characteristics characteristics;
-
-    public Monster() {
-    }
 
     public Monster(String name, String habitat, Characteristics characteristics) {
         this.name = name;
