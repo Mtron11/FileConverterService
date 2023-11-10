@@ -1,0 +1,72 @@
+{
+  "types" : [ {
+    "type" : "Реликт",
+    "monsters" : [ {
+      "name" : "Грифон",
+      "habitat" : "Горы и леса",
+      "characteristics" : {
+        "strength" : "Опасный",
+        "agility" : "Высокая",
+        "resistance" : "Средняя",
+        "weaknesses" : [ "Огонь", "Яд" ]
+      }
+    } ]
+  }, {
+    "type" : "Вампир",
+    "monsters" : [ {
+      "name" : "Фледдер",
+      "habitat" : "Темные леса и подземелья",
+      "characteristics" : {
+        "strength" : "Смертельно опасный",
+        "agility" : "Высокая",
+        "resistance" : "Высокая",
+        "weaknesses" : [ "Солнечный свет", "Серебро", "Черная кровь" ]
+      }
+    } ]
+  }, {
+    "type" : "Драконид",
+    "monsters" : [ {
+      "name" : "Василиск",
+      "habitat" : "Пещеры и горные ущелья",
+      "characteristics" : {
+        "strength" : "Смертельно опасный",
+        "agility" : "Средняя",
+        "resistance" : "Высокая",
+        "weaknesses" : [ "Ослабляющие зелья", "Яркий свет" ]
+      }
+    } ]
+  }, {
+    "type" : "Магическая тварь",
+    "monsters" : [ {
+      "name" : "Гаргулья",
+      "habitat" : "Руины и церковные дворы",
+      "characteristics" : {
+        "strength" : "Средняя",
+        "agility" : "Высокая",
+        "resistance" : "Очень высокая",
+        "weaknesses" : [ "Серебро", "Огонь" ]
+      }
+    }, {
+      "name" : "Элементаль Земли",
+      "habitat" : "Руины и подземелья",
+      "characteristics" : {
+        "strength" : "Опасный",
+        "agility" : "Низкая",
+        "resistance" : "Очень высокая",
+        "weaknesses" : [ "Масло против магич. тварей", "Серебро", "Квен" ]
+      }
+    } ]
+  }, {
+    "type" : "Трупоед",
+    "monsters" : [ {
+      "name" : "Дмитрий Смолев",
+      "habitat" : "Ганино",
+      "characteristics" : {
+        "strength" : "Смертельно опасный",
+        "agility" : "Смертельно низкая",
+        "resistance" : "Очень высокое",
+        "weaknesses" : [ "Золотая Семечка", "Honkai Star Rail", "Кафедра ПМИ, ЭВМ" ]
+      }
+    } ]
+  } ]
+}

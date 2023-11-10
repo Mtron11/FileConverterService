@@ -1,77 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<universe>
-  <monsters>
-    <monster>
-      <name>Грифон</name>
-      <habitat>Горы и леса</habitat>
-      <type>Реликт</type>
-      <characteristics>
-        <strength>Опасный</strength>
-        <agility>Высокая</agility>
-        <resistance>Средняя</resistance>
-        <weaknesses>
-          <weakness1>Огонь</weakness1>
-          <weakness2>Яд</weakness2>
-        </weaknesses>
-      </characteristics>
-    </monster>
-    <monster>
-      <name>Фледдер</name>
-      <habitat>Темные леса и подземелья</habitat>
-      <type>Вампир</type>
-      <characteristics>
-        <strength>Смертельно опасный</strength>
-        <agility>Высокая</agility>
-        <resistance>Высокая</resistance>
-        <weaknesses>
-          <weakness1>Солнечный свет</weakness1>
-          <weakness2>Серебро</weakness2>
-          <weakness3>Черная кровь</weakness3>
-        </weaknesses>
-      </characteristics>
-    </monster>
-    <monster>
-      <name>Василиск</name>
-      <habitat>Пещеры и горные ущелья</habitat>
-      <type>Драконид</type>
-      <characteristics>
-        <strength>Смертельно опасный</strength>
-        <agility>Средняя</agility>
-        <resistance>Высокая</resistance>
-        <weaknesses>
-          <weakness1>Ослабляющие зелья</weakness1>
-          <weakness2>Яркий свет</weakness2>
-        </weaknesses>
-      </characteristics>
-    </monster>
-    <monster>
-      <name>Гаргулья</name>
-      <habitat>Руины и церковные дворы</habitat>
-      <type>Магическая тварь</type>
-      <characteristics>
-        <strength>Средняя</strength>
-        <agility>Высокая</agility>
-        <resistance>Очень высокая</resistance>
-        <weaknesses>
-          <weakness1>Серебро</weakness1>
-          <weakness2>Огонь</weakness2>
-        </weaknesses>
-      </characteristics>
-    </monster>
-    <monster>
-      <name>Элементаль Земли</name>
-      <habitat>Руины и подземелья</habitat>
-      <type>Магическая тварь</type>
-      <characteristics>
-        <strength>Опасный</strength>
-        <agility>Низкая</agility>
-        <resistance>Очень высокая</resistance>
-        <weaknesses>
-          <weakness1>Масло против магич. тварей</weakness1>
-          <weakness2>Серебро</weakness2>
-          <weakness3>Квен</weakness3>
-        </weaknesses>
-      </characteristics>
-    </monster>
-  </monsters>
-</universe>
+<monsters>
+  <monster>
+    <name>Грифон</name>
+    <habitat>Горы и леса</habitat>
+    <type>Реликт</type>
+    <characteristics>
+      <strength>Опасный</strength>
+      <agility>Высокая</agility>
+      <resistance>Средняя</resistance>
+      <weaknesses>
+        <weakness1>Огонь</weakness1>
+        <weakness2>Яд</weakness2>
+      </weaknesses>
+    </characteristics>
+  </monster>
+  <monster>
+    <name>Фледдер</name>
+    <habitat>Темные леса и подземелья</habitat>
+    <type>Вампир</type>
+    <characteristics>
+      <strength>Смертельно опасный</strength>
+      <agility>Высокая</agility>
+      <resistance>Высокая</resistance>
+      <weaknesses>
+        <weakness1>Солнечный свет</weakness1>
+        <weakness2>Серебро</weakness2>
+        <weakness3>Черная кровь</weakness3>
+      </weaknesses>
+    </characteristics>
+  </monster>
+  <monster>
+    <name>Василиск</name>
+    <habitat>Пещеры и горные ущелья</habitat>
+    <type>Драконид</type>
+    <characteristics>
+      <strength>Смертельно опасный</strength>
+      <agility>Средняя</agility>
+      <resistance>Высокая</resistance>
+      <weaknesses>
+        <weakness1>Ослабляющие зелья</weakness1>
+        <weakness2>Яркий свет</weakness2>
+      </weaknesses>
+    </characteristics>
+  </monster>
+  <monster>
+    <name>Гаргулья</name>
+    <habitat>Руины и церковные дворы</habitat>
+    <type>Магическая тварь</type>
+    <characteristics>
+      <strength>Средняя</strength>
+      <agility>Высокая</agility>
+      <resistance>Очень высокая</resistance>
+      <weaknesses>
+        <weakness1>Серебро</weakness1>
+        <weakness2>Огонь</weakness2>
+      </weaknesses>
+    </characteristics>
+  </monster>
+  <monster>
+    <name>Элементаль Земли</name>
+    <habitat>Руины и подземелья</habitat>
+    <type>Магическая тварь</type>
+    <characteristics>
+      <strength>Опасный</strength>
+      <agility>Низкая</agility>
+      <resistance>Очень высокая</resistance>
+      <weaknesses>
+        <weakness1>Масло против магич. тварей</weakness1>
+        <weakness2>Серебро</weakness2>
+        <weakness3>Квен</weakness3>
+      </weaknesses>
+    </characteristics>
+  </monster>
+  <monster>
+    <name>Дмитрий Смолев</name>
+    <habitat>Ганино</habitat>
+    <type>Трупоед</type>
+    <characteristics>
+      <strength>Смертельно опасный</strength>
+      <agility>Смертельно низкая</agility>
+      <resistance>Очень высокая</resistance>
+      <weaknesses>
+        <weakness1>Золотая Семечка</weakness1>
+        <weakness2>Honkai Star Rail</weakness2>
+        <weakness3>Кафедра ПМИ, ЭВМ</weakness3>
+      </weaknesses>
+    </characteristics>
+  </monster>
+</monsters>
+

@@ -18,8 +18,8 @@ public class ReadXML {
 
     public List<Monster> getMonsters() {
         List<Monster> monsters = new ArrayList<>();
+        Element monstersElement = document.getRootElement();
 
-        Element monstersElement = document.getRootElement().element("monsters");
         for (Element monsterElement : monstersElement.elements("monster")) {
             String name = monsterElement.elementText("name");
             String habitat = monsterElement.elementText("habitat");
