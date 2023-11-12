@@ -27,7 +27,4 @@ public class TypeData {
         return monsters;
     }
 
-    public void addMonster(Monster monster) {
-        monsters.add(monster);
-    }
 }

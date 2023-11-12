@@ -20,13 +20,10 @@ public class WriteXML {
 
         // Проход по каждому типу монстров
         for (TypeData typeData : typeDataList) {
-            Element typeElement = monstersElement.addElement("monsterType");
-            typeElement.addElement("type").setText(typeData.getType());
-
             // Проход по каждому монстру в данном типе
             List<Monster> monsters = typeData.getMonsters();
             for (Monster monster : monsters) {
-                Element monsterElement = typeElement.addElement("monster");
+                Element monsterElement = monstersElement.addElement("monster");
                 monsterElement.addElement("name").setText(monster.getName());
                 monsterElement.addElement("habitat").setText(monster.getHabitat());
 
