@@ -1,5 +1,4 @@
 package Read;
-
 import JSON.TypeData;
 import JSON.Types;
 import com.fasterxml.jackson.databind.ObjectMapper;

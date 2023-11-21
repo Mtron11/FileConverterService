@@ -3,13 +3,11 @@ import Read.ReadXML;
 
 import java.util.ArrayList;
 import java.util.List;
+import lombok.AllArgsConstructor;
 
+@AllArgsConstructor
 public class XMLToJSONConverter {
     private ReadXML xmlParser;
-
-    public XMLToJSONConverter(ReadXML xmlParser) {
-        this.xmlParser = xmlParser;
-    }
 
     public List<TypeData> convertToJSONFile() {
         List<Monster> monsters = xmlParser.getMonsters();

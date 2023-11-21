@@ -24,6 +24,12 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.13.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version> <!-- Use the latest version available -->
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
 </project>

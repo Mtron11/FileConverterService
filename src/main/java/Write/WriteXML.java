@@ -27,8 +27,7 @@ public class WriteXML {
                 monsterElement.addElement("name").setText(monster.getName());
                 monsterElement.addElement("habitat").setText(monster.getHabitat());
 
-                // Добавьте элементы для характеристик и слабостей
-                // Например:
+                // Добавление элементов для характеристик и слабостей
                 Element characteristicsElement = monsterElement.addElement("characteristics");
                 characteristicsElement.addElement("strength").setText(monster.getCharacteristics().getStrength());
                 characteristicsElement.addElement("agility").setText(monster.getCharacteristics().getAgility());

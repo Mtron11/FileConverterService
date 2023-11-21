@@ -1,5 +1,4 @@
 package Write;
-import XML.Monster;
 import XML.TypeData;
 import XML.Types;
 import com.fasterxml.jackson.databind.ObjectMapper;
