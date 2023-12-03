@@ -1,4 +1,5 @@
 package xml;
+import lombok.val;
 import read.ReadXml;
 
 import java.util.ArrayList;
@@ -10,15 +11,15 @@ public class XmlToJsonConverter {
     private ReadXml xmlParser;
 
     public List<TypeData> convertToJSONFile() {
-        List<Monster> monsters = xmlParser.getMonsters();
+        val monsters = xmlParser.getMonsters();
         List<TypeData> typeDataList = new ArrayList<>();
         List<String> addedTypes = new ArrayList<>();
 
-        for (Monster monster : monsters) {
+        for (val monster : monsters) {
             String type = monster.getType();
             if (!addedTypes.contains(type)) {
-                TypeData typeData = new TypeData(type);
-                for (Monster monstr : monsters) {
+                val typeData = new TypeData(type);
+                for (val monstr : monsters) {
                     if (monstr.getType().equals(type)) {
                         typeData.addMonster(monstr);
                     }
