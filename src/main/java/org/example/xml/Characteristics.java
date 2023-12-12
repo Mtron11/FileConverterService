@@ -1,4 +1,4 @@
-package xml;
+package org.example.xml;
 
 import java.util.List;
 import lombok.AllArgsConstructor;

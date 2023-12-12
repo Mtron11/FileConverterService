@@ -1,4 +1,4 @@
-package json;
+package org.example.json;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class TypeData {
     private String type;
     private List<Monster> monsters;
 
-    public TypeData(String type) {
+    public TypeData(final String type) {
         this.type = type;
         this.monsters = new ArrayList<>();
     }

@@ -10,8 +10,8 @@
       <agility>Высокая</agility>
       <resistance>Средняя</resistance>
       <weaknesses>
-        <weakness1>Огонь</weakness1>
-        <weakness2>Яд</weakness2>
+        <weakness>Огонь</weakness>
+        <weakness>Яд</weakness>
       </weaknesses>
     </characteristics>
   </monster>
@@ -24,9 +24,9 @@
       <agility>Высокая</agility>
       <resistance>Высокая</resistance>
       <weaknesses>
-        <weakness1>Солнечный свет</weakness1>
-        <weakness2>Серебро</weakness2>
-        <weakness3>Черная кровь</weakness3>
+        <weakness>Солнечный свет</weakness>
+        <weakness>Серебро</weakness>
+        <weakness>Черная кровь</weakness>
       </weaknesses>
     </characteristics>
   </monster>
@@ -39,8 +39,8 @@
       <agility>Средняя</agility>
       <resistance>Высокая</resistance>
       <weaknesses>
-        <weakness1>Ослабляющие зелья</weakness1>
-        <weakness2>Яркий свет</weakness2>
+        <weakness>Ослабляющие зелья</weakness>
+        <weakness>Яркий свет</weakness>
       </weaknesses>
     </characteristics>
   </monster>
@@ -53,8 +53,8 @@
       <agility>Высокая</agility>
       <resistance>Очень высокая</resistance>
       <weaknesses>
-        <weakness1>Серебро</weakness1>
-        <weakness2>Огонь</weakness2>
+        <weakness>Серебро</weakness>
+        <weakness>Огонь</weakness>
       </weaknesses>
     </characteristics>
   </monster>
@@ -67,9 +67,9 @@
       <agility>Низкая</agility>
       <resistance>Очень высокая</resistance>
       <weaknesses>
-        <weakness1>Масло против магич. тварей</weakness1>
-        <weakness2>Серебро</weakness2>
-        <weakness3>Квен</weakness3>
+        <weakness>Масло против магич. тварей</weakness>
+        <weakness>Серебро</weakness>
+        <weakness>Квен</weakness>
       </weaknesses>
     </characteristics>
   </monster>
@@ -82,9 +82,9 @@
       <agility>Смертельно низкая</agility>
       <resistance>Очень высокая</resistance>
       <weaknesses>
-        <weakness1>Золотая Семечка</weakness1>
-        <weakness2>Honkai Star Rail</weakness2>
-        <weakness3>Кафедра ПМИ, ЭВМ</weakness3>
+        <weakness>Золотая Семечка</weakness>
+        <weakness>Honkai Star Rail</weakness>
+        <weakness>Кафедра ПМИ, ЭВМ</weakness>
       </weaknesses>
     </characteristics>
   </monster>

@@ -1,17 +1,5 @@
 {
   "types" : [ {
-    "type" : "Реликт",
-    "monsters" : [ {
-      "name" : "Грифон",
-      "habitat" : "Горы и леса",
-      "characteristics" : {
-        "strength" : "Опасный",
-        "agility" : "Высокая",
-        "resistance" : "Средняя",
-        "weaknesses" : [ "Огонь", "Яд" ]
-      }
-    } ]
-  }, {
     "type" : "Вампир",
     "monsters" : [ {
       "name" : "Фледдер",
@@ -24,15 +12,27 @@
       }
     } ]
   }, {
-    "type" : "Драконид",
+    "type" : "Трупоед",
     "monsters" : [ {
-      "name" : "Василиск",
-      "habitat" : "Пещеры и горные ущелья",
+      "name" : "Дмитрий Смолев",
+      "habitat" : "Ганино",
       "characteristics" : {
         "strength" : "Смертельно опасный",
-        "agility" : "Средняя",
-        "resistance" : "Высокая",
-        "weaknesses" : [ "Ослабляющие зелья", "Яркий свет" ]
+        "agility" : "Смертельно низкая",
+        "resistance" : "Очень высокая",
+        "weaknesses" : [ "Золотая Семечка", "Honkai Star Rail", "Кафедра ПМИ, ЭВМ" ]
+      }
+    } ]
+  }, {
+    "type" : "Реликт",
+    "monsters" : [ {
+      "name" : "Грифон",
+      "habitat" : "Горы и леса",
+      "characteristics" : {
+        "strength" : "Опасный",
+        "agility" : "Высокая",
+        "resistance" : "Средняя",
+        "weaknesses" : [ "Огонь", "Яд" ]
       }
     } ]
   }, {
@@ -57,15 +57,15 @@
       }
     } ]
   }, {
-    "type" : "Трупоед",
+    "type" : "Драконид",
     "monsters" : [ {
-      "name" : "Дмитрий Смолев",
-      "habitat" : "Ганино",
+      "name" : "Василиск",
+      "habitat" : "Пещеры и горные ущелья",
       "characteristics" : {
         "strength" : "Смертельно опасный",
-        "agility" : "Смертельно низкая",
-        "resistance" : "Очень высокая",
-        "weaknesses" : [ "Золотая Семечка", "Honkai Star Rail", "Кафедра ПМИ, ЭВМ" ]
+        "agility" : "Средняя",
+        "resistance" : "Высокая",
+        "weaknesses" : [ "Ослабляющие зелья", "Яркий свет" ]
       }
     } ]
   } ]

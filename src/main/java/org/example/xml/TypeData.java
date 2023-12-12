@@ -1,4 +1,4 @@
-package xml;
+package org.example.xml;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,14 +11,8 @@ public class TypeData {
     private String type;
     private List<Monster> monsters;
 
-    public TypeData(String type) {
+    public TypeData(final String type) {
         this.type = type;
     }
 
-    public void addMonster(Monster monster) {
-        if (monsters == null) {
-            monsters = new ArrayList<>();
-        }
-        monsters.add(monster);
-    }
 }

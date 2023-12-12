@@ -1,4 +1,4 @@
-package json;
+package org.example.json;
 
 import java.util.List;
 import lombok.AllArgsConstructor;
