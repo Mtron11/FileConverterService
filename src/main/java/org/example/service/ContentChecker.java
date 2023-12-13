@@ -46,14 +46,14 @@ public class ContentChecker {
             throw new RuntimeException(e);
         }
     }
-    private boolean isJsonFile(Path filePath) throws IOException {
+    private boolean isJsonFile(final Path filePath) throws IOException {
         return getFileContent(filePath).trim().startsWith("{");
     }
-    private boolean isXmlFile(Path filePath) throws IOException {
+    private boolean isXmlFile(final Path filePath) throws IOException {
         return getFileContent(filePath).trim().startsWith("<");
     }
 
-    private String getFileContent(Path filePath) throws IOException {
+    private String getFileContent(final Path filePath) throws IOException {
         try (BufferedReader reader = Files.newBufferedReader(filePath, StandardCharsets.UTF_8)) {
             StringBuilder content = new StringBuilder();
             int nextChar;
